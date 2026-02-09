@@ -89,7 +89,7 @@ class TestBoggleSolver(unittest.TestCase):
         game = Boggle(grid, dictionary)
         result = game.getSolution()
         # Should handle "St" tile correctly
-        self.assertIsInstance(result, list)
+        self.assertIsInstance(result, list) 
     
     def test_ie_special_tile(self):
         """
